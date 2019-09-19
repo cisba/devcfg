@@ -1,0 +1,7 @@
+sudo yum install -y rpmdevtools rpmlint
+sudo useradd rpmbuild
+sudo su - rpmbuild
+rpmdev-setuptree
+
+
+

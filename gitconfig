@@ -1,0 +1,20 @@
+[user]
+    email = emanuele.cisbani@gmail.com
+    name = Emanuele Cisbani
+    signingkey = 7F81D87985D61612
+[push]
+    default=nothing
+[branch]
+    autosetuprebase=always
+[color]
+    ui=true
+    status=auto
+    branch=auto
+[core]
+    editor=vim
+    excludesfile = /Users/ecisbani/.gitignore_global
+[merge]
+    tool=vimdiff
+
+[gpg]
+    program = /usr/local/bin/gpg2
